@@ -1,0 +1,22 @@
+# VS Code
+.vscode/
+
+# Python
+__pycahe__/
+#*.py[cod]
+#*$py.class
+
+# Virtual Enviroment
+venv/
+
+# Django
+#*.log
+#*.pot
+*.pyc
+#media
+
+# SQLite 3
+db.sqlite3
+
+# Backup
+#*.bak

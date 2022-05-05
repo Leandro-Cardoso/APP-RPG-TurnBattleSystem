@@ -1,0 +1,24 @@
+# Venv
+python -m venv venv
+venv\Scripts\activate.bat
+
+# Requirements
+pip install -r requirements.txt
+
+# Django
+django-admin startproject mysite .
+
+# Git init in VS Code
+
+# Start App
+python manage.py startapp APPNAME
+
+# Migrates
+python manage.py makemigrations APPNAME
+python manage.py migrate
+
+# Run Test
+python manage.py runserver
+
+# Manager
+python manage.py createsuperuser
