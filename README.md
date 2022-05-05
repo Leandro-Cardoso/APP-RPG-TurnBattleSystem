@@ -24,10 +24,10 @@
 
 ```bash
 # Clone repository:
-$ git clone <https://github.com/Leandro-Cardoso/APP>
+$ git clone <https://github.com/Leandro-Cardoso/APP-RPG-TurnBattleSystem>
 
 # Open the project folder:
-$ cd APP
+$ cd APP-RPG-TurnBattleSystem
 
 # Install all requirements:
 $ pip install -r requirements.txt
