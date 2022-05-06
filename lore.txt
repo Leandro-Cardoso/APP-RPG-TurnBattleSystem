@@ -1,0 +1,72 @@
+Energia da Natureza -> Criou o mundo, a vida e o elementos basicos.
+Energia da Natureza Manipulada -> Fonte potente de energia e destruição, consome a natureza (é necessário matar, para extrair) e gera vida monstruosas, sendo explorada principalmente pelos humanos.
+
+Elfos -> Especie inteligente rara, criada junto com este mundo através da Energia da Natureza pura. Conseguem controlar a Energia da Natureza pura. Não se dão bem com nenhuma outra raça, a não ser as criaturas da floresta. Possuem apenas uma vila secreta em meio a uma grande floresta.
+Templo do Carvalho -> Ensina-se todo o conhecimento elfico perdido, possui uma biblioteca. (Região: Vale Verde, Bioma: Floresta)
+Ruinas Elficas -> Cidade Elfica destruida, proximo aos Humanos. (Região: Velha Capital, Bioma: Pradarias)
+Base -> VELOCIDADE e MANA (energia interna).
+Magia -> NATUREZA e BUFF (Resistencia magica e cura).
+
+Humanos -> Especie inteligente gerada pela mestura de "Elfos" com "Orcs" no decorrer de eras. São grandes Manipuladores da Energia da Natureza.
+Templo da Luz -> Ensina magias de manipulação. Religião para controlar os humanos, favorecer as leis e esconder a natureza da "Energia Manipulada". (Região: Ilha da Luz, Bioma: Tropical)
+Templo do Céu -> Ensina magias de destruição, usadas na guerra contra os Elfos. Nova Capital Humana erguida sobre a antiga Capital Elfica. (Região: Capital, Bioma: Pradarias)
+Base -> EQUILIBRADO (Elfo x Orc).
+Magia -> MANIPULAÇÃO e DESTRUIÇÃO.
+
+Orcs -> Especie inteligente criada pelos Manipuladores Antigos da Energia da Natureza (Uma especie alienigena super tecnologica). Orcs possuem o conhecimento de invocação de criaturas de outros mundos (como um portal só de vinda).
+Templo do Invocador -> Ensina invocação, através do conhecimento dos antigos criadores e invocadores. (Região: Grandes Planicies, Bioma: Estepes)
+Templo da Pantano -> Ensina debuffs, através da extração de venenos de diversas criaturas. (Região: Pantano da Morte, Bioma: Pantano)
+Base -> FOÇA FÍSICA e VIDA. 
+Magia -> INVOCAÇÕES e DEBUFF.
+
+Monstros -> Especie agressiva e primitiva, criados como resultado da Manipulação da Energia da Natureza.
+
+Demonios -> Especies muito poderosas, agressivas e primitivas, são invocações de outros mundos.
+
+Anões -> Especie inteligente derivada dos humanos que viveram no subsolo das montanhas por eras. São verdadeiros mestre na criação de armas e armaduras não magicas.
+Grande Forja -> Ensina a forjar armas e armaduras não magicas, através do conhecimento antigo dos Anões na exploração de minérios raros. (Região: Serra do Fim, Bioma: Montanhas)
+Templo do Fim -> Ensina magia de gelo e stun, através do conhecimento sobre as planicies gelidas atrás das montanhas (Deserto Branco) e suas runas misteriosas. (Região: Serra do Fim, Bioma: Montanhas)
+Base -> RESISTENCIA FÍSICA.
+Magia -> GELO e STUN.
+
+Guerras:
+    Humanos vs Orcs (Região: Desfiladeiro da Morte, Bioma: Desfiladeiro)
+    Orcs vs Anões (Região: O Grande Portão, Bioma: Pé das montanhas)
+
+Neutros:
+    Anões e Humanos -> Relação de comercio.
+
+Outros:
+    Elfos -> Inimigos de todos (Estão escondidos nas perigosas florestas).
+
+Era I   -> Grandes Criações:
+    Criação do Mundo.
+    Criação das Criaturas Puras.
+    Criação dos Elfos.
+    Primeiras cidades Elficas.
+Era II  -> Era de Ouro dos Elfos:
+    Chegada dos Orcs.
+    Guerra: Elfos vs Orcs.
+    Miscigenação (Orcs x Elfos).
+    Vitória Elfica com muitas perdas.
+    Migração dos mestiços (Orcs x Elfos) para as ilhas e para o interior das montanhas.
+    Era de ouro da Capital Elfica.
+Era III -> Era do Grande Equilibrio:
+    Evolução dos Humanos (Orcs x Elfos).
+    Evolução dos Anões (Orcs x Elfos).
+    Primeiras cidades Humanas.
+    Inicio da grande cidade Anã das montanhas.
+    Guerra: Orc vs Anões.
+Era IV  -> Era das Guerras:
+    Consolidação da Grande Cidade Anã das montanhas.
+    Grande exploração Anã ou Deserto Branco, atras das montanhas.
+    Inicio da manipulação da Energia da Natureza pelos Humanos.
+    Grande migração Humana das ilhas para o continente.
+    Guerra: Humanos vs Elfos.
+    Destruição da Capital Elfica.
+    Vitória Humana com muitas perdas.
+    Fuga Elfica para floresta.
+    Guerra: Humanos vs Orcs.
+Era V   -> Era Atual:
+    Criação da grande Capital Humana.
+    Comércio: Anão e Humanos.
