@@ -1,8 +1,12 @@
-# Imports:
+# Third-party imports:
+from random import randint
+
+# local imports:
 from settings import *
 import creatures
 
-from random import randint
+# Translations:
+
 
 class Dice():
     def __init__(self, faces):

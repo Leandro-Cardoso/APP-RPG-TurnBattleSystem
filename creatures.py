@@ -1,3 +1,17 @@
+if __name__ == '__main__':
+    from settings import *
+
+# Translation:
+def translate_creature(creature) -> list:
+    creature += '> '
+    file = open(LANGUAGE_DIR + 'creatures_description.txt', 'r')
+    lines = file.readlines()
+    for line in lines:
+        if creature in line:
+            creature_name = line.replace(creature, '')
+            creature_description = lines[lines.index(line) + 1]
+            return (creature_name, creature_description)
+
 # Base:
 base = {
     'name' : None,
@@ -10,8 +24,8 @@ base = {
 }
 # Superiors creatures:
 elf = {
-    'creature' : 'Elf',
-    'creature description' : '',
+    'creature' : translate_creature('elf')[0],
+    'creature description' : translate_creature('elf')[1],
     'hp' : 100,
     'full hp' : 100,
     'mp' : 150,
