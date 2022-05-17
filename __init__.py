@@ -2,20 +2,14 @@
 from random import randint
 
 # local imports:
-from settings import *
 import creatures
-
-# Translations:
-
 
 class Dice():
     def __init__(self, faces):
         '''Generate a x faces dice'''
         self.faces = int(faces)
-        log('dice D{} created'.format(faces))
     def roll(self) -> int:
         face = randint(1, self.faces)
-        log('dice rolled (Face: {}/{})'.format(face, self.faces))
         return face
 
 class Creature():
@@ -25,17 +19,39 @@ class Creature():
         self.stats.update(dict(stats))
     def set_name(self, name):
         self.stats['name'] = str(name).title()
+    def level_up(self, levels = 1):
+        self.stats['full hp'] = int(self.stats['full hp'] / self.stats['level'] * (self.stats['level'] + levels))
+        self.stats['full mp'] = int(self.stats['full mp'] / self.stats['level'] * (self.stats['level'] + levels))
+        self.stats['level'] += int(levels)
+        self.stats['full exp'] = int(self.stats['full exp'] * 1.5 ** levels)
+    def win_exp(self, exp):
+        self.stats['exp'] += int(exp)
+        while self.stats['exp'] >= self.stats['full exp']:
+            self.stats['exp'] -= self.stats['full exp']
+            self.level_up()
     def attack(creature, skill = None):
         pass
 
 # Tests:
 player = Creature()
 print()
-print(player, '\n')
-print('TIPO:', type(player.stats), '\n')
 player.set_name('Leandro')
-print('NOME:', player.stats['name'], '\n')
-print('LINGUAGEM:', LANGUAGE, 'LINGUAGENS:', LANGUAGES, 'Diretório:', LANGUAGE_DIR)
+print('NOME:', player.stats['name'])
+player.add_stats(creatures.elf)
+print('CRIATURA:', player.stats['creature'], '\n')
+
+player.level_up()
+print('LV:', player.stats['level'])
+print('EXP: {}/{}'.format(player.stats['exp'], player.stats['full exp']))
+print('HP:', player.stats['full hp'])
+print('MP:', player.stats['full mp'])
+
+player.win_exp(3850)
+print('\nLV:', player.stats['level'])
+print('EXP: {}/{}'.format(player.stats['exp'], player.stats['full exp']))
+print('HP:', player.stats['full hp'])
+print('MP:', player.stats['full mp'])
+print()
 
 # INTERFACE DINAMICA NA WEB <-- PARA FUTURO
 
